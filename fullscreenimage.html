@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+    <link href="style/bootstrap.min.css" rel="stylesheet">
+    <link href="style/fullscreenbakgrndimages.css" rel="stylesheet">
+
+</head>
+<body>
+
+<div class="container-fluid ">
+    <div class="row">
+        <div class="fill-screen" style="background-image: url(images/kum.jpg)">
+
+        </div>
+    </div>
+</div>
+
+<script src="scripts/jquery-3.1.1.js"></script>
+<script src="scripts/bootstrap.js"></script>
+
+
+
+
+<script>
+    $(function(){
+        $(window).on("load resize", function(){
+            $(".fill-screen").css("height",window.innerHeight);
+        });
+    });
+</script>
+
+</body>
+</html>

@@ -1,0 +1,53 @@
+Bootstrap classes
+
+    .container
+    .container-fluid
+    .row
+
+
+  .col-sm-pull-2
+  .col-sm-push-8
+     These type classes are used to shift the column left and right defends on the screen size.
+
+
+  .visible-md  class is used to adjust the element to be visible im medium size
+  .hidden-md hide an element in the medium size
+
+
+Bootstrap navbar classes
+    .navbar-nav
+    .navbar-header
+    .navbar-brand
+    .navbar-left
+    .navbar-right
+    .navbar-form
+    .navbar-toggle
+
+    navbar-inverse class make the navbar dark
+
+    navbar-fixed-top class fix the navbar on top.it will help to access the menu where you are in the page
+
+    in order to get the navbar to shrink when we scroll down, we need to include a third party library from github.
+
+    to makean image responsive use 'img-responsive' class im the image tag
+
+Styling images
+----------------------
+ Bootstrap classe to style an image
+     img-circle
+     img-rounded
+     img-thumbnail
+
+
+
+
+
+
+
+
+
+
+
+
+
+

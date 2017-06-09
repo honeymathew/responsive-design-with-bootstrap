@@ -1,0 +1,241 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+    padding-top: 95px;
+}
+/* added for video*/
+html,
+body {
+    height: 100%;
+}
+header{
+    display: block;
+    position: relative;
+    width: auto;
+    height: auto;
+    padding: 100px 0;
+    min-height: 100%;
+    background: no-repeat center center;
+    background-attachment: scroll;
+    background-color: #222;
+    background-size: cover;
+}
+/*css for video ends here */
+.navbar {
+    margin-bottom: 0px;
+    padding: 30px 15px;
+    -webkit-transition: all 0.5s;
+    transition: all 0.5s;
+}
+.navbar-inverse .navbar-nav>li>a {
+    color: #bbb;
+}
+
+#myimage{
+    width: 80px;
+    height:70px;
+}
+/* to change the logo size while resizing the page use media queries*/
+@media (max-width: 300px) {
+    .navbar-header {
+        position: relative;
+    }
+    .navbar img{
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        margin: auto;
+        width: 40%;
+    }
+}
+
+
+
+/* to shrink the navbar*/
+.cbp-af-header-shrink {
+    padding-top: 2px;
+    padding-bottom: 2px;
+    opacity: 0.9;
+}
+.fill-screen{
+    background-size: cover;
+    background-position: center;
+}
+.content-filler{
+    min-height: 350px;
+}
+.fixed-attachment{
+    background-attachment: fixed;
+}
+/* media query to fix the images on smaller devices*/
+@media (max-width: 1024px) {
+    .fixed-attachment{
+        background-attachment: scroll;
+    }
+}
+
+
+footer {
+    background-color: #333;
+    color: #ddd;
+    padding: 20px;
+    text-align: center;
+}
+aside {
+    background-color: #f7f7f7;
+    text-align: center;
+    padding-top: 40px;
+}
+.range-list{
+    padding-bottom: 40px;
+    padding-top: 40px;
+}
+.range-list h4{
+    margin-bottom: 40px;
+    color: darkorange;
+    font-weight: bold;
+}
+.range-list  img {
+    width: 100%;
+    height: 100%;
+    max-width: 140px;
+    max-height: 60px;
+}
+.range-title{
+    color: darkblue;
+}
+.sports-icon-list{
+    background-color: #333;
+    padding-bottom: 40px;
+}
+.sports-icon-list a{
+    color: white;
+}
+.sports-icon-list a h6{
+    margin-top: 2px;
+    margin-bottom: 14px;
+}
+.sports-icon-list img{
+    width: 70px;
+    height: 70px;
+}
+/*for layout-shifter-pattern page*/
+.sports-list-top div {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+.sports-list-top a{
+    margin-left: 30px;
+    margin-right: 30px;
+    display: inline-block;
+}
+/*end for layout-shifter-pattern page*/
+article{
+    padding: 40px;
+}
+article img{
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    box-shadow: 6px 6px 8px #777;
+    margin-bottom: 20px;
+}
+article p{
+    font-size: 16px;
+}
+
+/*added for  06*/
+@media (max-width: 767px) {
+    .range-list h4{
+        display: inline;
+        font-size: 18px;
+    }
+    .range-list a{
+        display: block;
+    }
+    .range-list img{
+        width: 33%;
+        height: 33%;
+        margin-right: 10px;
+        margin-bottom: 30px;
+        margin-top: 20px;
+    }
+}
+
+/* to make all the columns to same length*/
+.container-xs-height{
+    display: table;
+    padding-left: 0px;
+    padding-right: 0px;
+}
+.row-xs-height {
+    display: table-row;
+}
+.col-xs-height{
+    display: table-cell;
+    float: none;
+}
+@media (min-width: 768px) {
+    .container-sm-height {
+        display: table;
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+    .row-sm-height{
+        display: table-row;
+    }
+    .col-sm-height{
+        display: table-cell;
+        float: none;
+    }
+}
+
+@media (min-width: 992px) {
+    .container-md-height {
+        display: table;
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+    .row-md-height{
+        display: table-row;
+    }
+    .col-md-height{
+        display: table-cell;
+        float: none;
+    }
+}
+
+
+@media (min-width: 1200px) {
+    .container-lg-height {
+        display: table;
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+    .row-lg-height{
+        display: table-row;
+    }
+    .col-lg-height{
+        display: table-cell;
+        float: none;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
